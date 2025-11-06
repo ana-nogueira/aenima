@@ -1,0 +1,67 @@
+/*Optei por deixar a escolha do tamanho ser feita direto na classe do objeto */
+
+/* FONTE 1 - guanabara */
+
+.font-1-xs {
+  font-family:'Guanabara Sans Test', sans-serif;
+  font-weight: 300;
+}
+
+.font-1-s {
+  font-family:'Guanabara Sans Test', sans-serif;
+  font-weight: 400;
+}
+
+.font-1-m {
+  font-family:'Guanabara Sans Test', sans-serif;
+  font-weight: 500;
+}
+
+.font-1-l {
+  font-family:'Guanabara Sans Test', sans-serif;
+  font-weight: 600;
+}
+
+/*FONTE 2 - ZT*/
+
+.font-2-xs {
+  font-family: 'ZT talk', sans-serif;
+  font-weight: 300;
+}
+
+.font-2-s {
+  font-family: 'ZT talk', sans-serif;
+  font-weight: 400;
+}
+
+.font-2-m {
+  font-family: 'ZT talk', sans-serif;
+  font-weight: 500;
+}
+
+.font-2-l {
+  font-family: 'ZT talk', sans-serif;
+  font-weight: 600;
+}
+
+/*FONTE 3 IBM*/
+
+.font-3-xs {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: 300;
+}
+
+.font-3-s {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: 400;
+}
+
+.font-3-m {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: 500;
+}
+
+.font-3-l {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: 600;
+}

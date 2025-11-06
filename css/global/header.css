@@ -1,0 +1,35 @@
+/*TOP BAR*/
+
+.header__top-bar {
+  padding: 0.5rem 1rem;
+  background-color: var(--cor-0);
+  justify-items: center;
+}
+.header__top-bar-text {
+  font-size: .88rem;
+  margin: .31rem .5rem;
+}
+.header__top-bar-text a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*NAV BAR*/
+
+.header__nav {
+  padding: 1.5rem 4rem ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  gap: 4.5rem;
+}
+.header__menu-item {
+  padding: 1rem 1.5rem;
+}
+.header__menu-item a {
+  cursor: pointer;
+  font-size: 1.25rem;
+}
