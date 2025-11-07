@@ -23,13 +23,14 @@
   align-items: center;
 }
 .header__menu {
+  position: relative;
   display: flex;
   gap: 4.5rem;
 }
 .header__menu-item {
   padding: 1rem 1.5rem;
+  cursor: pointer;
 }
 .header__menu-item a {
-  cursor: pointer;
   font-size: 1.25rem;
 }

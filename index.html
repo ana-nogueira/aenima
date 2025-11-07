@@ -32,11 +32,13 @@
       </a>
 
       <ul class="header__menu">
-        <li class="header__menu-item menu-item--primary"><a class="font-1-m" href="">Home</a></li>
+        <li class="header__menu-item" data-home><a class="font-1-m" href="">Home</a></li>
         <li class="header__menu-item"><a class="font-1-m" href="">Work</a></li>
         <li class="header__menu-item"><a class="font-1-m" href="">About</a></li>
         <li class="header__menu-item"><a class="font-1-m" href="">Blog</a></li>
+        <span class="menu-border"></span>
       </ul>
+
       <div class="header__contact">
         <button class="header__contact-btn btn__primary bg-cor-2 cor-1">Contact us
           <i class="header__contact arrow-icon bi bi-arrow-up-right" style="width: 1.25rem; height: 1.25rem;"></i>
@@ -76,13 +78,15 @@
       </h1>
 
       <div class="hero__actions">
-        <button class="btn btn--flat btn--round">Book a call</button>
-        <button class="btn btn--bordered btn--round">See all projects</button>
-
+        <button class="btn__primary bg-cor-1 cor-2">Book a call</button>
+        <button class="btn__primary bg-cor-2 cor-1">See all projects
+          <i class="arrow-icon bi bi-arrow-up-right" style="width: 1.25rem; height: 1.25rem;"></i>
+        </button>
       </div>
     </div>
 
   </main>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
