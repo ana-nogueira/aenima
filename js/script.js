@@ -23,3 +23,22 @@ items.forEach((item) => {
 
 // voltar pro Home ao sair da navbar
 menu.addEventListener('mouseleave', () => moveBorderTo(homeItem));
+
+
+// Função para trocar a cor do arrow icon ao passar o mouse
+
+const btnPrimary = document.querySelectorAll('.btn__primary');
+
+btnPrimary.forEach((btn) => {
+  const arrowIcon = btn.querySelector('.arrow-icon'); // pega o ícone dentro do botão
+
+  btn.addEventListener('mouseover', () => {
+    arrowIcon.classList.remove('bg-cor-3', 'cor-1');
+    arrowIcon.classList.add('bg-cor-1', 'cor-2');
+  });
+
+  btn.addEventListener('mouseout', () => {
+    arrowIcon.classList.remove('bg-cor-1', 'cor-2');
+    arrowIcon.classList.add('bg-cor-3', 'cor-1');
+  });
+});
