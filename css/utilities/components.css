@@ -11,28 +11,33 @@
   border: none;
   border-radius: 2.25rem;
   cursor: pointer;
-  z-index: 1; /*opção de personalizar cursor ?*/
+  z-index: 1;
+ /*opção de personalizar cursor ?*/
 }
-.btn__primary::before {
-  content: "";
+
+.btn__primary * {
+  pointer-events: none; /* evita o bug de hover sumir */
+}
+
+.btn__primary-animation {
   width: 100%;
   height: 100%;
-  position: absolute;
-  background: var(--cor-3);
-  z-index: -1;
-  transition: all .8s ease-in;
-  
-}
-.btn__primary-animation::before {
-  width: 100%;
-  height: 0;
   bottom: 0;
-left: 0;
-  border-start-end-radius: 100%;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transition: all 0.5s ease-in-out;
 }
-.btn__primary-animation:hover::before{
- height: 200%;
- width: 200%;
+
+.btn__primary:hover .btn__primary-animation {
+  width: 200%;
+  height: 600%;
+  bottom: -70px;
+  left: -50px;
+}
+
+.btn__primary:hover .btn__primary-animation path {
+  fill:var(--cor-3); 
 
 }
 
